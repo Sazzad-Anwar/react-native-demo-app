@@ -4,10 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from 'react-native-screens/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import Home from './app/screens/Home';
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import Login from './app/screens/Login';
 import Test from './app/screens/Test';
-import { View } from 'react-native';
+import { StatusBar } from 'react-native';
+
 
 enableScreens();
 let Stack = createNativeStackNavigator();
